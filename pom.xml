@@ -31,6 +31,7 @@
 		<module>52n-sps-api-xml</module>
 		<module>52n-sps-hibernate</module>
 		<module>52n-sps-testplugin</module>
+        <module>sml-config-plugin</module>
 		<module>52n-sps-rest</module>
 	</modules>
 
@@ -99,6 +100,11 @@
 				<artifactId>52n-sps-testplugin</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+            <dependency>
+                <groupId>org.n52.sensorweb</groupId>
+                <artifactId>sml-config-plugin</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 			<dependency>
 				<groupId>org.n52.sensorweb</groupId>
 				<artifactId>52n-oxf-ows-v110</artifactId>
